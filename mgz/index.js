@@ -2,14 +2,15 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebas
 import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAiKhYtKntdDXQHxvrKfYpOF9h6mr99aRk",
-  authDomain: "asf-panel-azizul2.firebaseapp.com",
-  databaseURL: "https://asf-panel-azizul2-default-rtdb.firebaseio.com",
-  projectId: "asf-panel-azizul2",
-  storageBucket: "asf-panel-azizul2.firebasestorage.app",
-  messagingSenderId: "295528012300",
-  appId: "1:295528012300:web:e3165c5001efda71ae6c29",
-  measurementId: "G-D1X883TTNV"
+const firebaseConfig = {
+  apiKey: "AIzaSyBaNvP3PE_4T4JcbTXF8TRajkBfvzl8qe4",
+  authDomain: "nahiyan-20eba.firebaseapp.com",
+  databaseURL: "https://nahiyan-20eba-default-rtdb.firebaseio.com",
+  projectId: "nahiyan-20eba",
+  storageBucket: "nahiyan-20eba.firebasestorage.app",
+  messagingSenderId: "637677914385",
+  appId: "1:637677914385:web:744e691b034e2625aea4b0",
+  measurementId: "G-3NKGJYNG8V"
 };
 
 const app = initializeApp(firebaseConfig);
